@@ -1,6 +1,11 @@
-body {
-  background-color: red;
+:root {
+  --bg-color00: #ffffff;
+  --bg-color01: #fafafa;
+  --primary-color: #9ba649;
+  --secondary-color: #d97236;
+  --text-primary-color: #212f3d;
+  --text-secundary-color: #566573;
 }
-p {
-  color: red;
+body {
+  margin: 0;
 }

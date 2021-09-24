@@ -1,0 +1,189 @@
+body {
+  background-color: var(--bg-color00);
+  color: var(--text-primary-color);
+}
+h2 {
+  font-size: xx-large;
+}
+h3 {
+  text-align: start;
+  margin: 0;
+}
+
+.menu {
+  width: 95vw;
+  height: 3.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item-menu {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.main {
+}
+
+.button-login {
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  background-color: var(--secondary-color);
+  color: white;
+  margin-left: 1rem;
+}
+
+.input-search {
+  height: 2.5rem;
+  border: none;
+  background-color: var(--primary-color);
+  opacity: 0.15;
+  color: ;
+  border-radius: 0.75rem;
+}
+
+/*Sección de cevichería main*/
+
+.container-cevicheria {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  /* background-color: beige; */
+}
+
+.item-cevicheria {
+  overflow: hidden;
+  width: 40rem;
+}
+.item-cevicheria2 {
+  overflow: hidden;
+  width: 32.5rem;
+}
+
+.img-ceviche {
+  width: 45rem;
+}
+
+.text-title {
+  font-size: xxx-large;
+}
+
+.text-description {
+  font-size: large;
+  color: var(--text-secundary-color);
+}
+
+.input-button-contact {
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: var(--secondary-color);
+  color: white;
+  width: 8rem;
+}
+
+.container-popular-dish {
+  text-align: center;
+}
+
+.container-cards-dish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-popular-dish {
+  margin-left: 5rem;
+  margin-top: 3rem;
+  height: 25rem;
+  width: 20rem;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: -20px 17px 38px -6px rgba(39, 37, 37, 0.57);
+  -webkit-box-shadow: -20px 17px 38px -6px rgba(39, 37, 37, 0.57);
+  -moz-box-shadow: -20px 17px 38px -6px rgba(39, 37, 37, 0.57);
+}
+
+.padding-popular-dish {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-popular {
+  display: flex;
+  align-items: center;
+}
+
+.img-popular-dish {
+  width: 20rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.material-icons {
+  color: var(--text-secundary-color);
+  margin-right: 1rem;
+}
+.store-dish-popular {
+  margin: 0;
+  color: var(--text-secundary-color);
+  text-align: start;
+}
+
+.inputs-popular-dish {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-text {
+  color: var(--secondary-color);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.button-add {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+  opacity: 0.75;
+  border-radius: 0.75rem;
+  width: 5rem;
+}
+
+/*Media Querys*/
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (max-width: 640px) {
+  .item-container {
+    display: none;
+  }
+
+  .item-cevicheria2 {
+    width: 80%;
+  }
+
+  .container-input-menu {
+    display: none;
+  }
+
+  .item-cevicheria {
+    display: none;
+  }
+
+  .card-popular-dish {
+    margin-left: 0;
+  }
+}
