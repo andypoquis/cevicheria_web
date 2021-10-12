@@ -4,19 +4,40 @@ body {
 }
 h2 {
   font-size: xx-large;
+  text-align: center;
+  margin: 0;
 }
 h3 {
   text-align: start;
   margin: 0;
 }
-
-.menu {
-  width: 95vw;
-  height: 3.5rem;
-
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+span {
+  margin: 0;
+}
+.header {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+.menu {
+  width: 80%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 75px;
 }
 
 .item-menu {
@@ -25,6 +46,48 @@ h3 {
 }
 
 .main {
+  width: 100%;
+  height: 50vh;
+  background-color: var(--secondary-color);
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+}
+
+.container-main {
+  padding-top: 2.5rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-search {
+  width: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-search-container {
+  background-color: var(--primary-color);
+  height: 44px;
+  width: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.55rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.material-icons {
+  margin: 0;
 }
 
 .button-login {
@@ -38,18 +101,44 @@ h3 {
 }
 
 .input-search {
-  height: 2.5rem;
+  width: 75%;
+  height: 42px;
   border: none;
-  background-color: var(--primary-color);
-  opacity: 0.15;
+  background-color: var(--bg-color00);
+  opacity: 0.95;
   color: ;
-  border-radius: 0.75rem;
+  border-radius: 0.55rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
+.container-items-main {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-main {
+  cursor: pointer;
+  background-color: var(--bg-color01);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 8.5rem;
+  height: 6.5rem;
+  margin-left: 1rem;
+  border-radius: 0.55rem;
+}
+.item-main-no {
+  margin-left: 0;
+}
 /*Sección de cevichería main*/
 
 .container-cevicheria {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   overflow: hidden;
@@ -58,7 +147,7 @@ h3 {
 
 .item-cevicheria {
   overflow: hidden;
-  width: 40rem;
+  width: 45rem;
 }
 .item-cevicheria2 {
   overflow: hidden;
@@ -93,10 +182,12 @@ h3 {
 }
 
 .container-cards-dish {
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 5rem;
 }
 
 .card-popular-dish {
@@ -104,11 +195,16 @@ h3 {
   margin-top: 3rem;
   height: 25rem;
   width: 20rem;
+  background-color: white;
   overflow: hidden;
   border-radius: 0.75rem;
   box-shadow: -20px 17px 38px -6px rgba(39, 37, 37, 0.57);
   -webkit-box-shadow: -20px 17px 38px -6px rgba(39, 37, 37, 0.57);
   -moz-box-shadow: -20px 17px 38px -6px rgba(39, 37, 37, 0.57);
+}
+
+.card-popular-margin {
+  margin-left: 0;
 }
 
 .padding-popular-dish {
@@ -127,10 +223,10 @@ h3 {
   object-fit: cover;
 }
 
-.material-icons {
+/* .material-icons {
   color: var(--text-secundary-color);
   margin-right: 1rem;
-}
+} */
 .store-dish-popular {
   margin: 0;
   color: var(--text-secundary-color);
@@ -159,14 +255,78 @@ h3 {
   width: 5rem;
 }
 
+.button-show-popular {
+  margin-top: 5rem;
+}
+
+/*Join*/
+.container-join {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid-join {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 50%;
+}
+.join {
+  padding: 2rem;
+  width: 50%;
+  text-align: start;
+}
+.img-join {
+  width: 400px;
+  height: 550px;
+  object-fit: cover;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--bg-color01);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: bottom right;
+}
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75vw;
+}
+.footer-text {
+  width: 50%;
+}
+
+.footer-item {
+  width: 50%;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.join-query {
+  font-size: x-large;
+}
+
 /*Media Querys*/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+  .img-ceviche {
+    max-width: 100%;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .item-container {
     display: none;
   }
@@ -174,16 +334,36 @@ h3 {
   .item-cevicheria2 {
     width: 80%;
   }
-
   .container-input-menu {
     display: none;
   }
-
+  .container-cevicheria {
+    flex-direction: column;
+  }
+  .img-ceviche {
+    width: 40rem;
+  }
+}
+@media only screen and (max-width: 640px) {
   .item-cevicheria {
     display: none;
   }
-
   .card-popular-dish {
     margin-left: 0;
+  }
+
+  /*Footer*/
+  .container-footer {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .footer-text {
+    width: 80%;
+  }
+
+  .footer-item {
+    width: 80%;
+    justify-content: space-between;
   }
 }
