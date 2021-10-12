@@ -1,10 +1,13 @@
 :root {
   --bg-color00: #ffffff;
-  --bg-color01: #fafafa;
-  --primary-color: #9ba649;
-  --secondary-color: #d97236;
-  --text-primary-color: #212f3d;
+  --bg-color01: #ebf5fb;
+  --primary-color: #f1c40f;
+  --secondary-color: #0099ff;
+  --text-primary-color: #2c3e50;
   --text-secundary-color: #566573;
+}
+* {
+  font-family: "Roboto", sans-serif;
 }
 body {
   margin: 0;
