@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400&display=swap');
+
+.anton{font-family: 'Anton', sans-serif;}
+.ubuntu{font-family: 'Ubuntu', sans-serif;}
+
+h4{
+    margin: 0.2rem;
+}
+
+.from_w{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    width: 75%;
+    height: 90%;
+
+}
+
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 1rem ;
+}
+
+.formulario{
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logotipe{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logotipe img{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+
+.inputs{
+    width: 100%;
+}
+
+.pxd{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 1rem;
+
+}
+
+.mpxd{
+    margin: 0px;
+}
+
+.cpxd{
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 1px #F2F3F4 solid;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn{
+    border: none;
+    height: 2rem;
+    background-color: #fecc51;
+    border-radius: 0.5rem;
+}
+
+.img_dv2{
+   background-color: lightcyan; 
+   width: 55%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.imgxd{
+    width: 100%;
+    height: 100%;
+}
+
+.imgxd img{
+    width: 100%;
+    height: 100%;
+}
+
+
+

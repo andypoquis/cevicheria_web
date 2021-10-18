@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/contacss.css">
+</head>
+<body>
+    
+    <section class="from_w">
+        <form class="form-container" >
+            <div class="row">
+                <!-- para los input -->
+                <div class="formulario">
+                    <!-- parte logo -->
+                    <div class="logotipe">
+                        <a href="#">
+                            <img src="../assets/logotipe.svg">
+                        </a>
+                        <h3 class="ubuntu">GLU GLU</h3>
+                    </div>
+                    <h4 class="text_center text uppercase anton">CONTACTENOS</h4>
+
+                    <!-- parte inputs -->
+                    <div class="inputs">
+                        <div class="pxd">
+                            <!-- input nombre -->
+                            <label for="nombre" class="ubuntu">NOMBRE</label>
+                            <input type="text" name="nombre" id="nombre" required class="cpxd">
+                        </div>
+                        <div class="pxd">
+                            <!-- input apellido -->
+                            <label for="apellido" class="ubuntu">APELLIDO</label>
+                            <input type="text" name="apellido" id="apellido" required class="cpxd">
+                        </div>
+                        <div class="pxd">
+                            <!-- input correo -->
+                            <label for="email" class="ubuntu">CORREO ELECTRONICO</label>
+                            <input type="email" name="email" id="email" required class="cpxd">
+                        </div>
+                        <div class="pxd">
+                            <!-- input telefono -->
+                            <label for="fone" class="ubuntu">TELEFONO</label>
+                            <input type="tel" name="fone" id="fone" class="cpxd">
+                        </div>
+                        <div class="pxd">
+                            <!-- input texto -->
+                            <label for="text_c"></label>
+                            <textarea name="mensaje" cols="30" rows="4" placeholder="Mensaje" class="ubuntu" id="text_c"></textarea>
+                        </div>
+                        <div class="pxd">
+                            <!-- input para enviar formulario -->
+                            <input type="submit" value="enviar mensaje" class="btn ubuntu">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- para la imagen -->
+                <div class="img_dv2">
+                    <figure class="imgxd">
+                        <img src="../assets/image-1.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
