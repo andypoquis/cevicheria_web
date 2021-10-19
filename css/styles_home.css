@@ -358,7 +358,7 @@ span {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   background-repeat: no-repeat;
 
   background-size: cover;
