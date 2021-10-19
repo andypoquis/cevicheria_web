@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="../css/menu_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <header class="header">
         <section class="menu">
@@ -10,15 +11,17 @@
             <div class="item-container">
                 <ul class="list-menu">
                     <li class="item-menu">Inicio</li>
-                    <li class="item-menu">Sobre</li>
+                    <li id="sobre" class="item-menu">Sobre</li>
                     <li class="item-menu">Catalogo</li>
-                    <link rel="stylesheet" href="../css/menu_style.css">
-                    <li class="item-menu"><a href="contac.html">Contactar</a></li>
+                   
+                    <li id="contac"  class="item-menu">Contactar</li>
                 </ul>
             </div> 
             <div class="container-input-menu">
-                <input class="button-login button" type="button" value="Iniciar Sesión">
+                <input id="navigator-login" class="button-login button" type="button" value="Iniciar Sesión">
             </div>
         </section>
     </header>
+    <script src="../js/menu_logic/login_navigator.js"></script>
+    <script src="../js//menu_logic//item_navigator.js"></script>
 </html>
