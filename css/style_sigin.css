@@ -1,10 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../assets/footer.jpg) no-repeat center top;
+  background: url('https://media.istockphoto.com/vectors/seamless-background-with-outline-pictures-of-seafood-vector-id931375530') no-repeat center top;
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
+}
+
+a{
+  border-style: none;
 }
 
 .login-box {

@@ -1,10 +1,16 @@
-body{background-color: var(--bg-color01);}
+body{background-color: white;}
 *{
     margin : 0;
     padding : 0;
     box-sizing:border-box;
 }
+h4{
+    color: black;
+}
 
+p{
+    color: blue;
+}
 .login{
     display:  flex;
     align-items: center;
@@ -12,9 +18,17 @@ body{background-color: var(--bg-color01);}
     height: 100vh;
 }
 
+.form-register-container{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .form-register{
-                width: 450px;
-                background:var(--primary-color);
+                width: 60%;
+                background:var(--bg-color00);
                 padding: 30px;
                 margin: auto;
                
@@ -23,7 +37,16 @@ body{background-color: var(--bg-color01);}
                 color: white;
             
 }
-.form-register h4{
+
+.type-register{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.type-register h4{
                     font: size 22ex;
                     margin-bottom: 20px;
 }
@@ -42,18 +65,29 @@ body{background-color: var(--bg-color01);}
     object-fit: cover;
 }
 
+.inputs-container{
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 .controls{
+    outline: none;
             width: 100%;
-            background: var(--bg-color00);
+            background-color: var(--bg-color01);
             padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 16px;
-            border: 1px solid #1f53c5;
-            font-family: 'calibri';
+            border-radius: 0.55rem;
+            margin-bottom: 16px;      
             font-size: 18px;
             color: white;
             border: none;
             
+}
+
+.controls:focus{
+    background-color: rgba(88, 214, 141 , 0.15);
+    border: none;
 }
 
 .form-register p {
@@ -74,11 +108,13 @@ body{background-color: var(--bg-color01);}
 }
 
 .form-register .botons{
+    cursor: pointer;
                         width: 100%;
-                        background: #1f53c5;
+                        background: var(--secondary-color);
                         border: none;
                         padding: 12px;
                         color: white;
                         margin: 16px 0;
                         font-size: 16px;
+                        border-radius: 0.5rem;
 }
