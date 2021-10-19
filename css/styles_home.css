@@ -357,6 +357,47 @@ span {
   }
 }
 @media only screen and (max-width: 640px) {
+
+  .container-main{
+    padding: 0;
+  }
+
+  .home-container{
+    justify-content: center;
+  }
+
+  .home-container{
+    flex-direction: column;
+  }
+
+  .container-main{
+    width: 80%;
+  }
+
+  .container-items-main{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .item-main{
+    flex-wrap: wrap;
+    width: 7rem;
+
+  }
+
+  .img-ceviche{
+    display: none;
+  }
+
+  .container-social{
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+
   .item-cevicheria {
     display: none;
   }

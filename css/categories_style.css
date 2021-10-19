@@ -1,0 +1,235 @@
+body {
+    background-color: var(--bg-color00);
+    color: var(--text-primary-color);
+  }
+  h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 0;
+  }
+  h3 {
+    text-align: start;
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  span {
+    margin: 0;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+  }
+  .menu {
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 75px;
+  }
+  
+  .item-menu {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  
+  .main {
+    width: 100%;
+    height: 50vh;
+    background-color: var(--secondary-color);
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+  }
+  
+  .container-main {
+    padding-top: 2.5rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container-search {
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-search-container {
+    background-color: var(--primary-color);
+    height: 44px;
+    width: 2.5rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.55rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .material-icons {
+    margin: 0;
+  }
+  
+  .button-login {
+    border: none;
+    cursor: pointer;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .input-search {
+    width: 75%;
+    height: 42px;
+    border: none;
+    background-color: var(--bg-color00);
+    opacity: 0.95;
+    border-radius: 0.55rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .container-items-main {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item-main {
+    cursor: pointer;
+    background-color: var(--bg-color01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 8.5rem;
+    height: 6.5rem;
+    margin-left: 1rem;
+    border-radius: 0.55rem;
+  }
+  .item-main-no {
+    margin-left: 0;
+  }
+  /*---categoriasCSS---*/
+  /*---<MENUCATEGORIAS>--*/
+  .container-categorias{
+      margin-top: 40px;
+  }
+  .conte-card{
+    display: inline-block;
+    margin: 0 16px;
+    width:300px;
+    height: 280px;
+    padding:0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgb(39 37 37 / 37%) -15px 13px 30px -5px;
+    border-radius: 10px;
+  }
+ .imgcategoria-card img{
+     width: 100%;
+     border-radius: 10px 10px 0 0;
+ }
+ .textocategoria-card{
+     margin-left: 10px;
+ }
+ .textocategoria-card span{
+   background: #F1C40F;
+   color: white;
+   border-radius: 5px;
+   padding: 5px;
+   cursor: pointer;
+ }
+ .textocategoria-card h3{
+     margin: 10px 0 10px;
+ }
+ .textocategoria-card span a{
+   color: white;
+   text-decoration: none;
+ }
+ .textocategoria-card span a:hover{
+   
+   opacity: 0.8;
+ }
+ /*--PLATOSFRIOSCSS--*/
+ /*--MENUPLATOS--*/
+ .titlemenuxd{
+   margin-top: 30px;
+ }
+ .titlemenuxd h3{
+  
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 46px;
+  max-width: 144px;
+  width: 100%;
+  border-bottom: #F1C40F solid 3px;
+  margin: 15px auto;
+ }
+ .conte-card-menu{
+  display: inline-flex;
+  margin: 0 16px;
+  width:600px;
+  height: 200px;
+  padding:20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: rgb(39 37 37 / 37%) -15px 13px 30px -5px;
+  border-radius: 10px;
+ }
+ .imgmenu-card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textomenu-card h3, h2{
+  display: inline;
+  margin-left: 10px;
+}
+.textomenu-card span{
+  margin-left: 10px;
+}
+.textomenu-card .btnmenu{
+ text-align: right;
+ margin-top: 90px;
+}
+.btnmenu a{
+  color: white;
+  background: #F1C40F;
+  border-radius: 5px;
+  text-decoration: none;
+  padding:10px;
+  font-weight: bold;
+}
+.textomenu-card h2{
+  margin-left:50px;
+}
+.btnmenu a:hover{
+  opacity: 0.8;
+}
+ 
