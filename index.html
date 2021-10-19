@@ -14,29 +14,11 @@
       <link rel="stylesheet" href="css/normalize/normalize.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,500;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <section class="menu">
-            <section>
-                <img class="logo" id="logo" src="assets/logoceviche.png" alt="">
-            </section>
-            <div class="item-container">
-                <ul class="list-menu">
-                    <li class="item-menu">Inicio</li>
-                    <li class="item-menu">Sobre</li>
-                    <li class="item-menu">Catalogo</li>
-                    <li class="item-menu"><a href="/pages/contac.html">Contactar</a></li>
-                </ul>
-            </div> 
-            <div class="container-input-menu">
-             
-                
-                <input class="button-login button" type="button" value="Iniciar Sesión">
-            </div>
-        </section>
-    </header>
+    <header id="menu-navigator"></header>
     <main class="main">
         <div class="home-container">
             <div class="container-main">
@@ -188,45 +170,10 @@
            
         </div>
     </section>
-  
-    <footer class="footer">
-        
-        <div class="container-footer">
-            <div class="footer-text">
-                <h1>GlugluExpress</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </div>
-            <div class="footer-item">
-                <div class="footer-iformation">
-                    <h3>Inofrmation</h3>
-                    <ul>
-                        <li>Sobre nosotros</li>
-                        <li>More search</li>
-                        <li>Testimonios</li>
-                        <li>Eventos</li>
-                    </ul>
+    
+    <footer id="footer-nav"></footer>
 
-                </div>
-                <div class="footer-help">
-                    <h3>Ayuda</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="footer-menu">
-                    <h3>Otros</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    </footer>
+    <script src="js/menu_logic/menu_nav.js"></script>
+    <script src="js/footer_logic/nav_footer.js"></script>
 </body>
 </html>
