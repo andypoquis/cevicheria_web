@@ -114,4 +114,12 @@ textarea{
 }
 
 
+/* media query */
+@media only screen and (max-width:647px){
+    .form-container{
+        width: 90%;
+    }
+
+    
+}
 
